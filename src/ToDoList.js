@@ -25,7 +25,7 @@ function ToDoList() {
       </div>
       <ul className='TodoList'>
         {todos.map((todo, index) => (
-          <li key={index}>{todo} <button onClick={() => handleDeleteTodo(index)}>삭제</button>
+          <li key={index}>{todo} <button onClick={() => handleDeleteTodo(index)}>X</button>
           </li>
         ))}
       </ul>
