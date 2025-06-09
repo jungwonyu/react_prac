@@ -1,0 +1,58 @@
+.InputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.InputContainer input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.InputContainer button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.TodoList {
+  width: 600px;
+  height: 600px;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.TodoList li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.TodoList li::before {
+  content: "";
+  color: #007bff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #007bff;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.TodoList button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
