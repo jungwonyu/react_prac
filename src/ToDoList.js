@@ -16,20 +16,18 @@ function ToDoList() {
   }
 
   return (
-    <div className='Container'>
+    <div className='container'>
       <h1>To Do List</h1>
-      <div className='InputContainer'>
+      <div className='inputContainer'>
         <input type="text" value={newTodo} onChange={(e) => setNewTodo(e.target.value)} placeholder="새 할 일 추가" />
         <button onClick={handleAddTodo}>추가</button>
         <button onClick={() => setTodos([])}>모두 삭제</button>
       </div>
-      <ul className='TodoList'>
+      <ul className='toDoList'>
         {todos.map((todo, index) => (
-          <li key={index}>{todo} <button onClick={() => handleDeleteTodo(index)}>X</button>
-          </li>
+          <li key={index}>{todo} <button onClick={() => handleDeleteTodo(index)}>X</button></li>
         ))}
       </ul>
-
     </div>
   );
 }

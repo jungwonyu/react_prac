@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.Container {
+.container {
   width: 50%;
   height: 800px;
 
@@ -22,31 +22,27 @@ code {
   flex-direction: column;
 }
 
-.AppContainer {
+.appContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
 }
 
-.Vstack {
+.vstack {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.Hstack {
+.hstack {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.Gap10 {
+.gap10 {
   gap: 10px;
-}
-
-.BottomBorder {
-  border-bottom: 1px solid #007bff;
 }

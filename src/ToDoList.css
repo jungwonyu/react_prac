@@ -3,8 +3,7 @@
   --color-red: #dc3545;
 }
 
-
-.InputContainer {
+.inputContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -12,7 +11,7 @@
   gap: 20px;
 }
 
-.InputContainer input {
+.inputContainer input {
   width: 300px;
   height: 30px;
   border-radius: 5px;
@@ -20,7 +19,7 @@
   padding: 5px;
 }
 
-.InputContainer button {
+.inputContainer button {
   width: 100px;
   height: 30px;
   border-radius: 5px;
@@ -30,7 +29,7 @@
   cursor: pointer;
 }
 
-.TodoList {
+.toDoList {
   width: 600px;
   height: 600px;
   border: 1px solid #ccc;
@@ -38,12 +37,12 @@
   padding: 20px;
 }
 
-.TodoList li {
+.toDoList li {
   list-style-type: none;
   padding: 0;
 }
 
-.TodoList li::before {
+.toDoList li::before {
   content: "";
   color: var(--color-blue);
   width: 10px;
@@ -54,7 +53,7 @@
   margin-right: 10px;
 }
 
-.TodoList button {
+.toDoList button {
   background-color: var(--color-red);
   color: white;
   border: none;
